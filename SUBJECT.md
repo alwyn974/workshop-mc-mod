@@ -24,3 +24,13 @@ Si vous n'avez pas déjà installé les outils nécessaires à ce workshop suive
 
 ## Configuration du workspace
 
+On va commencer par modifier le `mcmod.info` pour y mettre les informations nécessaires.
+Il faut modifier le `modid` pour mettre le vôtre (uniquement des lettres minuscules, sans espace).
+Le reste à vous de modifier
+
+En suite, on va rename le package de base créer par le MDK, renommé donc `com.example.examplemod` par votre package.
+Renommez aussi la classe `ExampleMod` par votre `Modid`Mod
+
+#hint(Pensez aussi à faire les modifications dans le fichier ExampleMod.java)
+
+## Création d'un Item Simple
