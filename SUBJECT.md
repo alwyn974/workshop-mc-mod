@@ -1,6 +1,6 @@
 ---
 module:         B-INN-000
-title:          Workshop Mod Minecraft
+title:          Mod Minecraft
 subtitle:       Créer son premier mod Minecraft
 
 language:		java
