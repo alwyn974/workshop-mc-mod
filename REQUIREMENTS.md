@@ -3,7 +3,7 @@
 ## Logiciels
 
 Il vous faudra :
-- le JDK 8
+- Le JDK 8
 - Intellij Idea (Community/Ultimate)
 - Blockbench [blockbench](https://www.blockbench.net/) (Création d'item en 3d :))
 - Optionel : [Plugin Minecraft Development](https://plugins.jetbrains.com/plugin/8327-minecraft-development)
@@ -47,7 +47,8 @@ archivesBaseName = "modid"
 
 ## Création des configurations de lancement pour Intellij
 
-Pour que vous puissiez lancer votre mod directement dans Intellij, il vous faudra exécuter ceci :
+Pour que vous puissiez lancer votre mod directement dans Intellij, il vous faudra exécuter ceci : <br>
+*C'est cette commande qui va télécharger Minecraft*
 ```bash
 # Si vous avez déjà gradle
 gradle genIntellijRuns
