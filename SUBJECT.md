@@ -46,6 +46,8 @@ Renommez aussi la classe `ExampleMod` par votre `Modid`Mod
 
 #hint(Pensez aussi à faire les modifications dans le fichier ExampleMod.java)
 
+#hint(Documentation Forge sur la structure d'un projet: [lien](https://docs.minecraftforge.net/en/1.12.x/gettingstarted/structuring/))
+
 ## Préparation pour créer un item
 
 On va devoir déclarer chaque item dans une classe spéciale, pour cela on va créer `ModidItems.java` dans le package `item` qui contiendra :
@@ -176,6 +178,8 @@ item.modid.votre_item.name=Votre nom d'item
 
 Maintenant quand vous lancerez votre jeu, il y aura un nom pour le creative tab et un nom pour l'item
 
+#hint(Concept d'internationalisation : [Documentation Forge](https://docs.minecraftforge.net/en/1.12.x/concepts/internationalization/))
+
 ## Préparation à la création d'un block
 
 Comme pour les items, on va créer une classe qui contient tout nos Block.
@@ -273,13 +277,12 @@ Exemple : `tile.modid.votre_block.name=Votre nom de block`
 ## Ajouter un craft
 
 Ajoutons un craft pour notre block, en utilisant notre `BasicItem`, pour cela il faudra dans le dossier `assets/modid/recipes/` ajouter un fichier json contenant le craft.
-Le nom du json déprendra du craft, par exemple: `basic_block_from_basic_item.json`
+Le nom du json déprendra du craft, par exemple: `basic_item_to_basic_block.json`
 
 Dans ce json il faudra mettre :
 ```json
 {
   "type": "minecraft:crafting_shaped",
-  "group": "basic_block",
   "pattern": [
     "###",
     "###",
@@ -296,4 +299,11 @@ Dans ce json il faudra mettre :
 }
 ```
 
-Le paterne est libre à vous, il faudra juste ne pas dépasser un 3x3
+Le paterne est libre à vous, il faudra juste ne pas dépasser un 3x3 #br
+
+Maintenant ajouter le craft inverse, `BasicBlock` => `BasicItem` si vous avez utilisé plusieurs `BasicItem` pour créer votre block, il faudra donner le nombre correspondant
+
+#warn(Il faudra utiliser le craft **shapeless**, bien lire la documentation ci-dessous)
+
+#hint(Documentation sur les craft : [lien](https://docs.minecraftforge.net/en/1.12.x/utilities/recipes/))
+
