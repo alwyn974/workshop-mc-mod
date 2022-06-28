@@ -42,7 +42,7 @@ archivesBaseName = "modid"
 ```
 
 - La première ligne est la version de votre mod. Vous pouvez laisser 1.0 ou mettre autre chose.
-- Le groupe sera le package de base de votre mod. (Pour moi, ça sera re.alwyn974.workshopmod)
+- Le groupe sera le package de base de votre mod. (Pour moi, ça sera re.alwyn974.workshop)
 - Et pour finir archivesBaseName est le nom du jar de votre mod. Il y sera ajouté -<version du mod>.jar lors de la compilation. Dans mon cas, ce sera WorkshopMod
 
 ## Création des configurations de lancement pour Intellij
