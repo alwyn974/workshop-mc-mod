@@ -1,11 +1,12 @@
 # Pré-requis
 
+- Créer un repository sur github pour le workshop (rendu obligatoire)
+
 ## Logiciels
 
 Il vous faudra :
 - Le JDK 8
 - Intellij Idea (Community/Ultimate)
-- Blockbench [blockbench](https://www.blockbench.net/) (Création d'item en 3d :))
 - Optionel : [Plugin Minecraft Development](https://plugins.jetbrains.com/plugin/8327-minecraft-development)
 
 ## MDK Forge
